@@ -6,7 +6,7 @@ const TodoApp = () => {
   const [counter, setCounter] = useState(0);
   return (
     <div className="TodoApp">
-      <h1>Hello CodeSandbox {counter} !</h1>
+      <h1>Test counter {counter} !</h1>
       <button onClick={() => setCounter(counter + 1)}>Inc</button>
     </div>
   );
