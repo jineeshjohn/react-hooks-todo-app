@@ -3,11 +3,13 @@ import ReactDOM from "react-dom";
 
 import "./styles.css";
 
-import TodoApp from "./app";
+import Counter from "./counter";
+import TodoApp from "./todo";
 
 function App() {
   return (
     <div className="App">
+      <Counter />
       <TodoApp />
     </div>
   );
